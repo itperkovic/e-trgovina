@@ -1,13 +1,24 @@
-import React, { Component } from 'react';
-import style from'./Header.module.css';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import styles from './Header.module.css';
 
+const Header = () => {
+  return (
+    <header className={styles.header}>
+      <h4 className={styles.brand}>eTrgovina</h4>
+      <nav>
+        <NavLink exact to="/" className={styles.link}>
+          Početna
+        </NavLink>
+        <NavLink to="/users" className={styles.link}>
+          Users
+        </NavLink>
+        <NavLink to="/about" className={styles.link}>
+          About
+        </NavLink>
+      </nav>
+    </header>
+  );
+}
 
-class Header extends Component {
-render () {
-    return(
-        <header className={style.header}><h4 className={style.jaje}>eTrgovina</h4></header>
-        )
-}
-}
 export default Header;
-

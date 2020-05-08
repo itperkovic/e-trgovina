@@ -1,0 +1,22 @@
+{"items": [
+{
+    "id": 1,
+    "name": "mobile",
+    "price": "100",
+    "category": "phones",
+    "stanje_zaliha": "5"
+},
+
+{
+    "id": 2,
+    "name": "mobile",
+    "price": "95",
+    "category": "phones",
+    "stanje_zaliha": "5"
+}
+
+]
+
+
+
+}

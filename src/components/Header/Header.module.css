@@ -1,10 +1,24 @@
-.header{background-color: rgb(59, 113, 134);}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #343436;
+  padding: 1rem;
+}
 
-.jaje {
-    color: rgb(173, 123, 15);
-    padding: 4.5rem;
-    font-size: 3.8rem;
-    border: 61px solid #f0f0f0;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+.brand {
+  color: #fff;
+  font-size: 1.1rem;
+  margin: unset;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+  margin-left: 0.75rem;
+}
+
+.link:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

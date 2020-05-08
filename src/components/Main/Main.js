@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
-//import style from'./Main.module.css';
-import Header from '../Header/Header'
+import React from 'react';
+//import styles from'./Main.module.css';
+import Mobile from '../../containers/Mobile/Mobile';
 
-class Main extends Component {
-render () {
+const Main = (props) => {
+
     return(
-        <Header></Header>
+<div>
+      <Mobile items = {props.items}></Mobile>
+</div>
     );
-}
+
 }
 export default Main;
 
