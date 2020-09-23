@@ -5,4 +5,7 @@
     background-color: #343436;
     padding: 1rem;
     flex-shrink: 0px;
+    position: relative;
+    top: 60rem;
+
 }

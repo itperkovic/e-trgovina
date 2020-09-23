@@ -9,7 +9,7 @@ class ScrollBack extends React.Component {
      }; 
     componentDidMount() { 
        document.addEventListener("scroll", () => { 
-           if (window.scrollY > 170) { 
+           if (window.scrollY > 250) { 
                 this.setState({ thePosition: true }) 
            } else { 
                this.setState({ thePosition: false }) 

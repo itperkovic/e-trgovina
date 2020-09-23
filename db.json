@@ -1,18 +1,36 @@
 {"items": [
 {
     "id": 1,
-    "name": "mobile",
-    "price": "100",
+    "name": "Mobile ultra",
+    "price": "500",
     "category": "phones",
-    "stanje_zaliha": "5"
+    "stanje_zaliha": "8",
+    "img": "https://static.tia-mobiteli.hr/public/slike/t/14-529559.png",
+    "info":
+    "Lorem ipsum dolor amet offal..."
+
 },
 
 {
     "id": 2,
-    "name": "mobile",
-    "price": "95",
-    "category": "phones",
-    "stanje_zaliha": "5"
+    "name": "Ps5",
+    "price": "450",
+    "category": "console",
+    "stanje_zaliha": "5",
+    "img": "https://heute-at-prod-images.imgix.net/2020/6/12/33baf810-7824-4126-acb4-2e123beba949.jpeg?rect=259%2C216%2C3081%2C2094&auto=format,compress&w=640",
+    "info":
+    "Lorem ipsum dolor amet offal..."
+},
+
+{
+    "id": 3,
+    "name": "Notebook",
+    "price": "800",
+    "category": "notebook",
+    "stanje_zaliha": "2",
+    "img": "https://www.hgshop.hr/articleImages/90312-878.jpg?preset=product",
+    "info":
+    "Lorem ipsum dolor amet offal..."
 }
 
 ]

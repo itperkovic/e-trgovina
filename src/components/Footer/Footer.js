@@ -7,7 +7,7 @@ class Footer extends Component {
     render() {
         return(
             <div>
-                <footer className={styles.footer}>© KOPIRAJT BAJJY PERKA</footer>
+                <footer className={styles.footer}>copyright © 2020 itperkovic </footer>
             </div>
         );
     }

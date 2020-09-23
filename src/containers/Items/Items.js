@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles from './Items.module.css';
 //import { bindActionCreators } from 'redux';
 //import { connect } from 'react-redux';
 
@@ -10,7 +11,27 @@ class Items extends Component {
         }
     }
     render() {
-    return (<div> {this.props.items.name} </div>)
+    return (
+    <div> 
+        {""} 
+        <ItemDetails {...this.props}></ItemDetails>{""}
+        </div>
+        );
     }
 }
-export default Items
+const ItemDetails = (props) => {
+    return (
+        <>
+        <div>
+            {props.items.map((itemDetail, index) => (
+            <div key={index}>
+            <div className= {`${styles.name} ${styles.photo1}`}> <img src={itemDetail.img} width="170" height="150" alt="avatar" /> {itemDetail.name}</div>
+            
+            <div className= {styles.price}> {itemDetail.price}</div>
+            </div>
+            ))}
+        </div>
+        </>
+    );
+};
+export default Items;

@@ -1,0 +1,6 @@
+.photo1 {
+    position: absolute;
+    left: 112rem;
+    top: 4rem;
+    z-index: -10;
+}

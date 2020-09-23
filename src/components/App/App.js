@@ -6,13 +6,14 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "../Home/Home";
 import styles from "./App.module.css";
 import About from "../About/About";
-import Users from '../Users/Users'
-import { connect } from 'react-redux';
-import {getItems} from '../../services';
-import {addItems} from '../../redux/actions';
+import Cart from "../Cart/Cart";
+import { connect } from "react-redux";
+import { getItems } from "../../services";
+import { addItems } from "../../redux/actions";
+import Details from "../Details/Details";
+
 
 class App extends Component {
-
   fetchData = async () => {
     const { dispatch } = this.props;
     const json = await getItems();
@@ -29,9 +30,19 @@ class App extends Component {
         <div className={styles.container}>
           <Header />
           <div className={styles.containerFlex}>
-            <Route exact path="/" component={<Home items ={this.props.items}></Home>} />
-            <Route exact path="/users" component={Users} />
+            <Route
+              exact
+              path="/"
+              render={() => (
+                <div className={styles.containerFlex}>
+                  <Home items={this.props.items}>
+                  </Home>
+                </div>
+              )}
+            />
+            <Route exact path="/Cart" component={Cart} />
             <Route path="/about" component={About} />
+            <Route path="/Details/:id" component={Details} />
           </div>
           <Footer></Footer>
           <ScrollBack></ScrollBack>
@@ -43,9 +54,8 @@ class App extends Component {
 
 function mapStateToProps(state) {
   return {
-    items: state.items.items
+    items: state.items.items,
   };
 }
 
 export default connect(mapStateToProps)(App);
-

@@ -1,0 +1,17 @@
+.name {
+    color: rgb(82, 42, 42);
+    font-size: 1.1rem;
+    padding: 11rem;
+    text-align: center;
+    
+}
+.price {
+    color: #2c3457;
+    font-size: 1.1rem;
+    padding: 0.2rem;
+    text-align: center;
+}
+.photo1 {
+    padding: 5rem;
+}
+

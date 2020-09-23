@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './Users.module.css';
+import styles from './Cart.module.css';
 
-const Users = () => {
+const Cart = () => {
     return (
       <div className={styles.container}>
-        <h2>Users</h2>
+        <h2>Cart</h2>
         <p>
           "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
@@ -13,6 +13,12 @@ const Users = () => {
           odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
           voluptatem sequi nesciunt.
         </p>
+        <p>
+          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+          consectetur, adipisci velit, sed quia non numquam eius modi tempora
+          incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+        </p>
+        <p>....</p>
         <p>
           Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
           consectetur, adipisci velit, sed quia non numquam eius modi tempora
@@ -27,5 +33,5 @@ const Users = () => {
     );
   };
   
-  export default Users;
+  export default Cart;
   

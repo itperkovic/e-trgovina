@@ -1,14 +1,18 @@
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: #343436;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4 );
   padding: 1rem;
+  position: sticky;
 }
 
 .brand {
   color: #fff;
   font-size: 1.1rem;
   margin: unset;
+  position: sticky;
 }
 
 .link {
@@ -16,9 +20,11 @@
   color: #fff;
   opacity: 0.8;
   margin-left: 0.75rem;
+  position: sticky;
 }
 
 .link:hover {
   cursor: pointer;
   opacity: 0.5;
+  position: sticky;
 }
