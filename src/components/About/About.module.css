@@ -1,7 +1,21 @@
 .container {
   width: 100%;
-  max-width: 500px;
+  max-width: 800px;
   min-width: 300px;
   margin: 0 auto;
   text-align: center;
 }
+
+h2 {
+  border-style: outset;
+  border-width: 7px;
+  border-color: coral;
+  color: rgb(68, 64, 105);
+}
+
+h3 {
+  border-style: outset;
+  border-width: 7px;
+  border-color: coral;
+}
+

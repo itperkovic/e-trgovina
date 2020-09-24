@@ -1,0 +1,54 @@
+.CartBtn {
+    position: absolute;
+    top: 280px;
+    width: 135px;
+    height: 30px;
+    left: 59rem;
+  }
+
+  .price {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 244px;
+    left: 1050px;
+  }
+
+.name {
+    text-align: left;
+    position: relative;
+    left: 920px;
+}
+
+.photo1 {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+
+}
+
+.link {
+    position: absolute;
+    background-color: coral;
+    border: none;
+    color: rgb(138, 64, 68);
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+    transition-duration: 0.10s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 10px 30px 0 rgba(0,0,0,0.19);
+}
+
+.info {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 350px;
+    left: 910px;
+}

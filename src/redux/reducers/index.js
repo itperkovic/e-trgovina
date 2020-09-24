@@ -1,9 +1,8 @@
 import { combineReducers } from 'redux';
 import items from './items';
-import cart from './cart';
 
 let reducers = {
-  items, cart
+  items
 };
 
 const rootReducer = combineReducers(reducers);

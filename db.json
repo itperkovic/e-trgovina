@@ -1,20 +1,21 @@
 {"items": [
 {
-    "id": 1,
-    "name": "Mobile ultra",
-    "price": "500",
+    "id": 0,
+    "name": "Mobile Ultra",
+    "price": "6999",
     "category": "phones",
     "stanje_zaliha": "8",
     "img": "https://static.tia-mobiteli.hr/public/slike/t/14-529559.png",
     "info":
-    "Lorem ipsum dolor amet offal..."
+    "Display: 6.9'1440x3200 pixels 108MP 4320p 12GB RAM Exynos 990 5000mAh Li-Po"
+    
 
 },
 
 {
-    "id": 2,
-    "name": "Ps5",
-    "price": "450",
+    "id": 1,
+    "name": "Playstation 5",
+    "price": "3800",
     "category": "console",
     "stanje_zaliha": "5",
     "img": "https://heute-at-prod-images.imgix.net/2020/6/12/33baf810-7824-4126-acb4-2e123beba949.jpeg?rect=259%2C216%2C3081%2C2094&auto=format,compress&w=640",
@@ -23,9 +24,9 @@
 },
 
 {
-    "id": 3,
-    "name": "Notebook",
-    "price": "800",
+    "id": 2,
+    "name": "Notebook 13",
+    "price": "8499",
     "category": "notebook",
     "stanje_zaliha": "2",
     "img": "https://www.hgshop.hr/articleImages/90312-878.jpg?preset=product",

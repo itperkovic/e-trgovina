@@ -40,7 +40,12 @@ class App extends Component {
                 </div>
               )}
             />
-            <Route exact path="/Cart" component={Cart} />
+            <Route exact path="/Cart" render={() => (
+                <div>
+                  <Cart cartItems={this.props.cartItems}>
+                  </Cart>
+                </div>
+              )} />
             <Route path="/about" component={About} />
             <Route path="/Details/:id" component={Details} />
           </div>
@@ -55,6 +60,7 @@ class App extends Component {
 function mapStateToProps(state) {
   return {
     items: state.items.items,
+    cartItems: state.items.cartItems
   };
 }
 

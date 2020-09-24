@@ -6,22 +6,27 @@ const About = () => {
     <div className={styles.container}>
       <h2>About</h2>
       <p>
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt.
+      Od svog osnivanja 2015. godine, tvrtka eTrgovina je jedan od lidera na tržištu IT opreme. Od male obiteljske tvrtke, eTrgovina je izrasla u jednu od najperspektivnijih i najbrže rastućih domaćih trgovina informatičkom opremom.
+</p>
+<p>
+Proteklih godina smo naučili nešto i o vašim očekivanjima. Djelatnici eTrgovina informatike svjesni su da naš uspjeh ovisi o vašem zadovoljstvu našim radom, stoga konstantno učimo i ulažemo u nova znanja.
+Otvoreni smo za sve vaše ideje i očekivanja. Zahvalni smo za svaku korisnu primjedbu kako raditi bolje.
+</p>
+<p>
+eTrgovina se etablirao kao tvrtka koja je među prvima ponudila najpotpuniji specijalizirani asortiman proizvoda, definirala napredne oblike komunikacije sa kupcima i pokrenula online kupovinu.
+Tvrtka trenutno broji preko 30 zaposlenih.
       </p>
       <p>
-        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-        consectetur, adipisci velit, sed quia non numquam eius modi tempora
-        incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim
-        ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
-        laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel
-        eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-        molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
-        nulla pariatur?"
+      <p>Ukoliko ste kupili proizvod preko naše web trgovine i iz nekog razloga želite:</p>
+<p>- zamijeniti proizvod za drugi</p>
+<p>- vratiti proizvod uz povrat sredstava</p>
+<p>- pitati nešto vezano za proizvod i njegovo korištenje</p>
+<p>- sve upite vezane za vašu web narudžbu i status iste</p>
+</p>
+<p>
+<h3>Kontaktirajte nas na:</h3>
+Mail: web@etrgovina.hr
+Radno vrijeme: pon-pet 09:00-18:00h
       </p>
     </div>
   );
